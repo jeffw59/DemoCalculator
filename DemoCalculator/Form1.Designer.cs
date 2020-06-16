@@ -32,6 +32,7 @@
             this.CalculationResultText = new System.Windows.Forms.Label();
             this.ButtonPanel = new System.Windows.Forms.TableLayoutPanel();
             this.CEButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.ButtonPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,6 +65,7 @@
             this.ButtonPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.ButtonPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.ButtonPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.ButtonPanel.Controls.Add(this.button1, 0, 4);
             this.ButtonPanel.Controls.Add(this.CEButton, 0, 0);
             this.ButtonPanel.Location = new System.Drawing.Point(2, 65);
             this.ButtonPanel.Name = "ButtonPanel";
@@ -85,6 +87,16 @@
             this.CEButton.TabIndex = 0;
             this.CEButton.Text = "CE";
             this.CEButton.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.Location = new System.Drawing.Point(3, 299);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(91, 71);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "CE";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -108,6 +120,7 @@
         private System.Windows.Forms.Label CalculationResultText;
         private System.Windows.Forms.TableLayoutPanel ButtonPanel;
         private System.Windows.Forms.Button CEButton;
+        private System.Windows.Forms.Button button1;
     }
 }
 
